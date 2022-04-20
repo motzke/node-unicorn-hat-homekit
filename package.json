@@ -1,0 +1,28 @@
+{
+  "name": "unicorn-hat-homekit",
+  "version": "1.0.0",
+  "description": "Use a unicorn hat on a raspberry as a lightbulb for homekit",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motzke/node-unicorn-hat-homekit.git"
+  },
+  "dependencies": {
+    "unicornhat-mini": "git+ssh@github.com:motzke/node-unicornhat-mini.git"
+  },
+  "keywords": [
+    "homekit",
+    "raspberry",
+    "lightbulb",
+    "unicornhat"
+  ],
+  "author": "Matthias Motzke <matthias@m0tz.de>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/motzke/node-unicorn-hat-homekit/issues"
+  },
+  "homepage": "https://github.com/motzke/node-unicorn-hat-homekit#readme"
+}
